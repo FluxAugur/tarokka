@@ -1,0 +1,52 @@
+.card-image {
+  max-width: 70%;
+}
+
+.card-meaning {
+  font-size: 90%;
+  max-width: 90%;
+  padding: 2% 5%;
+  text-align: justify;
+}
+
+.card-name {
+  font-weight: bold;
+  max-width: 90%;
+  padding: 2% 5%;
+  text-align: justify;
+}
+
+.card-rank-suit {
+  font-size: 70%;
+  font-style: oblique;
+  max-width: 90%;
+  padding: 1% 15%;
+  text-align: justify;
+}
+
+.card-significance {
+  font-size: 90%;
+  font-style: italic;
+  max-width: 90%;
+  padding: 2% 5%;
+  text-align: justify;
+}
+
+.details {
+  text-align: justify;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  border: 0;
+  padding: 2%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
